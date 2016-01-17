@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://morganwhaley.github.io/atom.xml" rel="self"/>
   <link href="http://morganwhaley.github.io/"/>
-  <updated>2016-01-17T15:35:58-07:00</updated>
+  <updated>2016-01-17T16:12:46-07:00</updated>
   <id>http://morganwhaley.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,5 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Hello World Meta]]></title>
+    <link href="http://morganwhaley.github.io/blog/2016/01/17/hello-world-meta/"/>
+    <updated>2016-01-17T16:03:42-07:00</updated>
+    <id>http://morganwhaley.github.io/blog/2016/01/17/hello-world-meta</id>
+    <content type="html"><![CDATA[<p>Alright, so this is post number one. I&rsquo;m keeping as a reminder I should not throw away things with the kind of disregard I often have for something I feel is beneath my skill sets.</p>
+
+<p>So. Post one. I&rsquo;m using <a href="http://octopress.org/">Octopress</a> which is great. I managed to stumble around and spin this up in about an hour, and that was after tearing it down twice to rebuild, and also looking at other blogging engines.</p>
+
+<p><strong>Stuff I learned:</strong> <br/>
+Follow directions for setup. Don&rsquo;t just go in all willy-nilly and expect shit to work. <br/>
+Github Pages is actually a pretty great thing.</p>
+
+<p><strong>Breaking away to:</strong> <br/>
+Make homemade pad thai<br/>
+Set up scaffolding on a side project<br/>
+Be frightened at the price of car parts I need for the 335xi<br/>
+Not give two flying fucks about sportsball</p>
+]]></content>
+  </entry>
   
 </feed>
