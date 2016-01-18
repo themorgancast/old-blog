@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://morganwhaley.github.io/sitemap.xml 
+Sitemap: http://blog.krakendx.com/sitemap.xml 

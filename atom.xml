@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://morganwhaley.github.io/atom.xml" rel="self"/>
-  <link href="http://morganwhaley.github.io/"/>
-  <updated>2016-01-17T16:12:46-07:00</updated>
-  <id>http://morganwhaley.github.io/</id>
+  <title><![CDATA[The Call of Blogthulhu]]></title>
+  <link href="http://blog.krakendx.com/atom.xml" rel="self"/>
+  <link href="http://blog.krakendx.com/"/>
+  <updated>2016-01-18T11:12:16-07:00</updated>
+  <id>http://blog.krakendx.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
-    
+    <name><![CDATA[Morgan Whaley]]></name>
+    <email><![CDATA[krakendx@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
     <title type="html"><![CDATA[Hello World Meta]]></title>
-    <link href="http://morganwhaley.github.io/blog/2016/01/17/hello-world-meta/"/>
+    <link href="http://blog.krakendx.com/blog/2016/01/17/hello-world-meta/"/>
     <updated>2016-01-17T16:03:42-07:00</updated>
-    <id>http://morganwhaley.github.io/blog/2016/01/17/hello-world-meta</id>
+    <id>http://blog.krakendx.com/blog/2016/01/17/hello-world-meta</id>
     <content type="html"><![CDATA[<p>Alright, so this is post number one. I&rsquo;m keeping as a reminder I should not throw away things with the kind of disregard I often have for something I feel is beneath my skill sets.</p>
 
 <p>So. Post one. I&rsquo;m using <a href="http://octopress.org/">Octopress</a> which is great. I managed to stumble around and spin this up in about an hour, and that was after tearing it down twice to rebuild, and also looking at other blogging engines.</p>
