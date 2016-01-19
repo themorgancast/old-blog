@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[The Call of Blogthulhu]]></title>
-  <link href="http://blog.krakendx.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Backbone, | The Call of Blogthulhu]]></title>
+  <link href="http://blog.krakendx.com/blog/categories/backbone/atom.xml" rel="self"/>
   <link href="http://blog.krakendx.com/"/>
   <updated>2016-01-18T21:45:54-07:00</updated>
   <id>http://blog.krakendx.com/</id>
@@ -18,7 +18,7 @@
     <link href="http://blog.krakendx.com/blog/2016/01/18/workin-9-to-5/"/>
     <updated>2016-01-18T21:15:36-07:00</updated>
     <id>http://blog.krakendx.com/blog/2016/01/18/workin-9-to-5</id>
-    <content type="html"><![CDATA[<p>I normally don&rsquo;t take on side work as evidenced by my statement in my <a href="http://blog.krakendx.com/about.html">about page</a>. BUT. Certain people are an exception I&rsquo;m more than willing to make, because I like working with them, and they don&rsquo;t take advantage of my abilities or time, and they are generally wonderful individuals who I like and respect.</p>
+    <content type="html"><![CDATA[<p>I normally don&rsquo;t take on side work as evidenced by my statement in my <a href="/about.html">about page</a>. BUT. Certain people are an exception I&rsquo;m more than willing to make, because I like working with them, and they don&rsquo;t take advantage of my abilities or time, and they are generally wonderful individuals who I like and respect.</p>
 
 <p>So now that we&rsquo;ve established that, I&rsquo;m excitedly embarking on building a single-page portfolio app for a person who falls very much in the category of Morgan&rsquo;s Top Ten People She Knows IRL.</p>
 
@@ -41,27 +41,6 @@
 <p><br/><br/></p>
 
 <p><em>* It is worth mentioning here: I fucking HATE Wordpress. I am a programmer, not an assembler. If you are on some level a WP advocate, please let us simply agree to disagree. I will try to keep my anti-WP snark to a bare minimum and not mention too much how it&rsquo;s completely ruined my life on several occasions.</em></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hello World Meta]]></title>
-    <link href="http://blog.krakendx.com/blog/2016/01/17/hello-world-meta/"/>
-    <updated>2016-01-17T16:03:42-07:00</updated>
-    <id>http://blog.krakendx.com/blog/2016/01/17/hello-world-meta</id>
-    <content type="html"><![CDATA[<p>Alright, so this is post number one. I&rsquo;m keeping as a reminder I should not throw away things with the kind of disregard I often have for something I feel is beneath my skill sets.</p>
-
-<p>So. Post one. I&rsquo;m using <a href="http://octopress.org/">Octopress</a> which is great. I managed to stumble around and spin this up in about an hour, and that was after tearing it down twice to rebuild, and also looking at other blogging engines.</p>
-
-<p><strong>Stuff I learned:</strong> <br/>
-Follow directions for setup. Don&rsquo;t just go in all willy-nilly and expect shit to work. <br/>
-Github Pages is actually a pretty great thing.</p>
-
-<p><strong>Breaking away to:</strong> <br/>
-Make homemade pad thai<br/>
-Set up scaffolding on a side project<br/>
-Be frightened at the price of car parts I need for the 335xi<br/>
-Not give two flying fucks about sportsball</p>
 ]]></content>
   </entry>
   
