@@ -4,7 +4,7 @@
   <title><![CDATA[The Call of Blogthulhu]]></title>
   <link href="http://blog.krakendx.com/atom.xml" rel="self"/>
   <link href="http://blog.krakendx.com/"/>
-  <updated>2016-01-18T21:45:54-07:00</updated>
+  <updated>2016-01-23T19:27:46-07:00</updated>
   <id>http://blog.krakendx.com/</id>
   <author>
     <name><![CDATA[Morgan Whaley]]></name>
@@ -14,7 +14,41 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Workin-9-to-5]]></title>
+    <title type="html"><![CDATA[Location Matters]]></title>
+    <link href="http://blog.krakendx.com/blog/2016/01/23/location-matters/"/>
+    <updated>2016-01-23T18:45:01-07:00</updated>
+    <id>http://blog.krakendx.com/blog/2016/01/23/location-matters</id>
+    <content type="html"><![CDATA[<p>Sometimes I have a day where I just want to write a damn event binder but this happens instead:</p>
+
+<p><img src="http://i.imgur.com/s32cy.gif" alt="Just... WHY" /></p>
+
+<p>A couple weeks ago someone in LivingSocial slack asked what the diff is between putting script files in the <code>head</code> vs lower in the file, below the DOM. I had no hard evidence at the time but had a notion putting the file at the bottom, say just inside the <code>body</code> tag, would ensure DOM elements were fully loaded before the script runs.</p>
+
+<p>So today I just spent about an hour beating my head against a wall wondering why a <code>.click</code> event wasn&rsquo;t binding.</p>
+
+<p>When this goes wrong, do two things:<br/>
+1. Run a <code>console.log</code> or <code>debugger</code> in the binder to see if it&rsquo;s even binding.<br/>
+2. If that doesn&rsquo;t hit, log the DOM element you&rsquo;re trying to hit and check its length.</p>
+
+<p>For some reason, step 2 didn&rsquo;t occur to me for an hour.</p>
+
+<p><strong>The problem:</strong><br/>
+The script I was calling was coming from Rails asset pipeline and was loading in the document <code>head</code>. So, surprise, the length on that DOM selector was a big fat zero.</p>
+
+<p><img src="http://gifsec.com/wp-content/uploads/GIF/2014/04/where-is-everyone-gif.gif?gs=a" alt="So where the hell is it" /></p>
+
+<p><strong>The solution:</strong><br/>
+Move that sucker into the bottom of my ERB for the time being and wahey, it works!</p>
+
+<p>So yeah. Script location. It&rsquo;s a thing. And now I have some proof documented.</p>
+
+<p><strong>In other news</strong>
+I&rsquo;m in the final 36 hours of my staycation. I worked out, hiked, ate a lot of food I really shouldn&rsquo;t have, got caught up on all the <em>X-Files</em> mythology episodes from season 4 - 9, figured out how to make a super awesome old fashioned, and have been giggling at the snowstorms on the east coast. I wish I could jump into the Star Destroyer with its performance snows and school these people.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Workin 5 to 9]]></title>
     <link href="http://blog.krakendx.com/blog/2016/01/18/workin-9-to-5/"/>
     <updated>2016-01-18T21:15:36-07:00</updated>
     <id>http://blog.krakendx.com/blog/2016/01/18/workin-9-to-5</id>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://blog.krakendx.com/blog/2016/01/23/location-matters/</loc>
+    <lastmod>2016-01-23T18:45:01-07:00</lastmod>
+  </url>
+  <url>
     <loc>http://blog.krakendx.com/blog/2016/01/18/workin-9-to-5/</loc>
     <lastmod>2016-01-18T21:15:36-07:00</lastmod>
   </url>
