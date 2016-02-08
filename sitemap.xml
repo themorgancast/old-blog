@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>http://blog.krakendx.com/blog/2016/02/07/this-gif/</loc>
-    <lastmod>2016-02-07T18:02:40-07:00</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.krakendx.com/blog/2016/01/23/location-matters/</loc>
-    <lastmod>2016-01-23T18:45:01-07:00</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.krakendx.com/blog/2016/01/18/workin-9-to-5/</loc>
-    <lastmod>2016-01-18T21:15:36-07:00</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.krakendx.com/blog/2016/01/17/hello-world-meta/</loc>
-    <lastmod>2016-01-17T16:03:42-07:00</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.krakendx.com/about.html</loc>
-  </url>
-  <url>
-    <loc>http://blog.krakendx.com/blog/archives/</loc>
-  </url>
-  <url>
-    <loc>http://blog.krakendx.com/</loc>
-  </url>
-  <url>
-    <loc>http://blog.krakendx.com/blog/categories/backbone/</loc>
-  </url>
-  <url>
-    <loc>http://blog.krakendx.com/blog/categories/rails/</loc>
-  </url>
-  <url>
-    <loc>http://blog.krakendx.com/blog/categories/new/</loc>
-  </url>
-  <url>
-    <loc>http://blog.krakendx.com/blog/categories/work/</loc>
-  </url>
-  <url>
-    <loc>http://blog.krakendx.com/blog/categories/side/</loc>
-  </url>
-  <url>
-    <loc>http://blog.krakendx.com/blog/categories/work/</loc>
-  </url>
+<url>
+<loc>http://blog.krakendx.com/blog/2016/02/07/this-gif/</loc>
+<lastmod>2016-02-07T18:02:40-07:00</lastmod>
+</url>
+<url>
+<loc>http://blog.krakendx.com/blog/2016/01/23/location-matters/</loc>
+<lastmod>2016-01-23T18:45:01-07:00</lastmod>
+</url>
+<url>
+<loc>http://blog.krakendx.com/blog/2016/01/18/workin-9-to-5/</loc>
+<lastmod>2016-01-18T21:15:36-07:00</lastmod>
+</url>
+<url>
+<loc>http://blog.krakendx.com/blog/2016/01/17/hello-world-meta/</loc>
+<lastmod>2016-01-17T16:03:42-07:00</lastmod>
+</url>
+<url>
+<loc>http://blog.krakendx.com/about.html</loc>
+</url>
+<url>
+<loc>http://blog.krakendx.com/blog/archives/</loc>
+</url>
+<url>
+<loc>http://blog.krakendx.com/</loc>
+</url>
+<url>
+<loc>http://blog.krakendx.com/blog/categories/backbone/</loc>
+</url>
+<url>
+<loc>http://blog.krakendx.com/blog/categories/rails/</loc>
+</url>
+<url>
+<loc>http://blog.krakendx.com/blog/categories/new/</loc>
+</url>
+<url>
+<loc>http://blog.krakendx.com/blog/categories/work/</loc>
+</url>
+<url>
+<loc>http://blog.krakendx.com/blog/categories/side/</loc>
+</url>
+<url>
+<loc>http://blog.krakendx.com/blog/categories/work/</loc>
+</url>
 </urlset>
