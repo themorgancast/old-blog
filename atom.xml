@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[The Call of Blogthulhu]]></title>
+  <link href="http://blog.krakendx.com/atom.xml" rel="self"/>
+  <link href="http://blog.krakendx.com/"/>
+  <updated>2016-01-23T19:32:35-07:00</updated>
+  <id>http://blog.krakendx.com/</id>
+  <author>
+    <name><![CDATA[Morgan Whaley]]></name>
+    <email><![CDATA[krakendx@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Location Matters]]></title>
+    <link href="http://blog.krakendx.com/blog/2016/01/23/location-matters/"/>
+    <updated>2016-01-23T18:45:01-07:00</updated>
+    <id>http://blog.krakendx.com/blog/2016/01/23/location-matters</id>
+    <content type="html"><![CDATA[<p>Sometimes I have a day where I just want to write a damn event binder but this happens instead:</p>
+
+<p><img src="http://i.imgur.com/s32cy.gif" alt="Just... WHY" /></p>
+
+<p>A couple weeks ago someone in LivingSocial slack asked what the diff is between putting script files in the <code>head</code> vs lower in the file, below the DOM. I had no hard evidence at the time but had a notion putting the file at the bottom, say just inside the <code>body</code> tag, would ensure DOM elements were fully loaded before the script runs.</p>
+
+<p>So today I just spent about an hour beating my head against a wall wondering why a <code>.click</code> event wasn&rsquo;t binding.</p>
+
+<p>When this goes wrong, do two things:<br/>
+1. Run a <code>console.log</code> or <code>debugger</code> in the binder to see if it&rsquo;s even binding.<br/>
+2. If that doesn&rsquo;t hit, log the DOM element you&rsquo;re trying to hit and check its length.</p>
+
+<p>For some reason, step 2 didn&rsquo;t occur to me for an hour.</p>
+
+<p><strong>The problem:</strong><br/>
+The script I was calling was coming from Rails asset pipeline and was loading in the document <code>head</code>. So, surprise, the length on that DOM selector was a big fat zero.</p>
+
+<p><img src="http://gifsec.com/wp-content/uploads/GIF/2014/04/where-is-everyone-gif.gif?gs=a" alt="So where the hell is it" /></p>
+
+<p><strong>The solution:</strong><br/>
+Move that sucker into the bottom of my ERB for the time being and wahey, it works!</p>
+
+<p>So yeah. Script location. It&rsquo;s a thing. And now I have some proof documented.</p>
+
+<p><strong>In other news</strong><br/>
+I&rsquo;m in the final 36 hours of my staycation. I worked out, hiked, ate a lot of food I really shouldn&rsquo;t have, got caught up on all the <em>X-Files</em> mythology episodes from season 4 - 9, figured out how to make a super awesome old fashioned, and have been giggling at the snowstorms on the east coast. I wish I could jump into the Star Destroyer with its performance snows and school these people.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Workin 5 to 9]]></title>
+    <link href="http://blog.krakendx.com/blog/2016/01/18/workin-9-to-5/"/>
+    <updated>2016-01-18T21:15:36-07:00</updated>
+    <id>http://blog.krakendx.com/blog/2016/01/18/workin-9-to-5</id>
+    <content type="html"><![CDATA[<p>I normally don&rsquo;t take on side work as evidenced by my statement in my <a href="http://blog.krakendx.com/about.html">about page</a>. BUT. Certain people are an exception I&rsquo;m more than willing to make, because I like working with them, and they don&rsquo;t take advantage of my abilities or time, and they are generally wonderful individuals who I like and respect.</p>
+
+<p>So now that we&rsquo;ve established that, I&rsquo;m excitedly embarking on building a single-page portfolio app for a person who falls very much in the category of Morgan&rsquo;s Top Ten People She Knows IRL.</p>
+
+<p>Our project kick-off was specialty beers and whiskeys at his house.</p>
+
+<iframe src="//giphy.com/embed/acdneJpXPPlUA" width="480" height="249" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+
+<p>Then he gave me 27 pages of beautiful and fully annotated wireframes and fleshed out design mocks. LOVE.</p>
+
+<p>Fortunately like me he is the type who doesn&rsquo;t find Wordpress applicable to most scenarios despite what custom theme developers and people who don&rsquo;t know better often lead people to believe.*</p>
+
+<p>I&rsquo;m building this project in Ruby on Rails, because we need a secure login page, with Backbone.js for the multiple views => single page functionality. I did not feel this application warranted much heavier lifting than that, so yeah. There is the plan. I am trying to sway away from using a gem like <code>backbone-rails</code> and hand-roll the architecture myself. I also be using F212, a responsive scaffolding boilerplate thing I built a couple years ago to handle responsive radness.</p>
+
+<p>Codebase is super top secret so will not be in my Github repo. I will be posting a link when the site is live, because it will be wicked awesome. This guy and I are like this when we collaborate and it really is the shit. I&rsquo;m excited.</p>
+
+<iframe src="//giphy.com/embed/CDMz3fckRXXDG" width="480" height="269" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+
+<p><br/><br/></p>
+
+<p><em>* It is worth mentioning here: I fucking HATE Wordpress. I am a programmer, not an assembler. If you are on some level a WP advocate, please let us simply agree to disagree. I will try to keep my anti-WP snark to a bare minimum and not mention too much how it&rsquo;s completely ruined my life on several occasions.</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hello World Meta]]></title>
+    <link href="http://blog.krakendx.com/blog/2016/01/17/hello-world-meta/"/>
+    <updated>2016-01-17T16:03:42-07:00</updated>
+    <id>http://blog.krakendx.com/blog/2016/01/17/hello-world-meta</id>
+    <content type="html"><![CDATA[<p>Alright, so this is post number one. I&rsquo;m keeping as a reminder I should not throw away things with the kind of disregard I often have for something I feel is beneath my skill sets.</p>
+
+<p>So. Post one. I&rsquo;m using <a href="http://octopress.org/">Octopress</a> which is great. I managed to stumble around and spin this up in about an hour, and that was after tearing it down twice to rebuild, and also looking at other blogging engines.</p>
+
+<p><strong>Stuff I learned:</strong> <br/>
+Follow directions for setup. Don&rsquo;t just go in all willy-nilly and expect shit to work. <br/>
+Github Pages is actually a pretty great thing.</p>
+
+<p><strong>Breaking away to:</strong> <br/>
+Make homemade pad thai<br/>
+Set up scaffolding on a side project<br/>
+Be frightened at the price of car parts I need for the 335xi<br/>
+Not give two flying fucks about sportsball</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Backbone, | The Call of Blogthulhu]]></title>
+  <link href="http://blog.krakendx.com/blog/categories/backbone/atom.xml" rel="self"/>
+  <link href="http://blog.krakendx.com/"/>
+  <updated>2016-01-23T19:32:35-07:00</updated>
+  <id>http://blog.krakendx.com/</id>
+  <author>
+    <name><![CDATA[Morgan Whaley]]></name>
+    <email><![CDATA[krakendx@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Workin 5 to 9]]></title>
+    <link href="http://blog.krakendx.com/blog/2016/01/18/workin-9-to-5/"/>
+    <updated>2016-01-18T21:15:36-07:00</updated>
+    <id>http://blog.krakendx.com/blog/2016/01/18/workin-9-to-5</id>
+    <content type="html"><![CDATA[<p>I normally don&rsquo;t take on side work as evidenced by my statement in my <a href="/about.html">about page</a>. BUT. Certain people are an exception I&rsquo;m more than willing to make, because I like working with them, and they don&rsquo;t take advantage of my abilities or time, and they are generally wonderful individuals who I like and respect.</p>
+
+<p>So now that we&rsquo;ve established that, I&rsquo;m excitedly embarking on building a single-page portfolio app for a person who falls very much in the category of Morgan&rsquo;s Top Ten People She Knows IRL.</p>
+
+<p>Our project kick-off was specialty beers and whiskeys at his house.</p>
+
+<iframe src="//giphy.com/embed/acdneJpXPPlUA" width="480" height="249" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+
+<p>Then he gave me 27 pages of beautiful and fully annotated wireframes and fleshed out design mocks. LOVE.</p>
+
+<p>Fortunately like me he is the type who doesn&rsquo;t find Wordpress applicable to most scenarios despite what custom theme developers and people who don&rsquo;t know better often lead people to believe.*</p>
+
+<p>I&rsquo;m building this project in Ruby on Rails, because we need a secure login page, with Backbone.js for the multiple views => single page functionality. I did not feel this application warranted much heavier lifting than that, so yeah. There is the plan. I am trying to sway away from using a gem like <code>backbone-rails</code> and hand-roll the architecture myself. I also be using F212, a responsive scaffolding boilerplate thing I built a couple years ago to handle responsive radness.</p>
+
+<p>Codebase is super top secret so will not be in my Github repo. I will be posting a link when the site is live, because it will be wicked awesome. This guy and I are like this when we collaborate and it really is the shit. I&rsquo;m excited.</p>
+
+<iframe src="//giphy.com/embed/CDMz3fckRXXDG" width="480" height="269" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+
+<p><br/><br/></p>
+
+<p><em>* It is worth mentioning here: I fucking HATE Wordpress. I am a programmer, not an assembler. If you are on some level a WP advocate, please let us simply agree to disagree. I will try to keep my anti-WP snark to a bare minimum and not mention too much how it&rsquo;s completely ruined my life on several occasions.</em></p>
+]]></content>
+  </entry>
+  
+</feed>
